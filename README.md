@@ -5,6 +5,8 @@ A retailer A**** ran a randomized A/B experiment offering a 20% discount coupon 
 
 This project analyzes the experiment to answer a core business question: **should the coupon be sent to everyone, or only to specific customer segments, to maximize revenue?**
 
+*[Completed as part of a team assignment. I led the analysis and modeling work reflected in this repository.]*
+
 ## Approach/Methods
 - **Randomization checks**: balance tests on pre-treatment covariates and a logistic regression of treatment on covariates to confirm valid random assignment.
 - **Average treatment effect (ATE)**: difference-in-means t-tests on transactions and revenue.
